@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 30px 95px 30px 95px;
+}
+
+.card {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.cardDetails {
+    text-align: center;
+}
+
+.cardText {
+    font-size: 20px;
+}
