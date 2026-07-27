@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px 95px 30px 95px;
+}
+
+.card {
+    border: 2px solid rgb(38, 95, 38);
+    padding: 5px;
+    background-color: rgb(38, 95, 38);
+    color: white;
+}
+
+.cardDetails {
+    text-align: center;
+}
+
+.cardText {
+    font-size: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    position: relative;
+    left: 65px;
+}
+
+.options {
+    padding: 10px;
+}
+
+.profileAndCart {
+    padding: 10px;
+}
+
+.btn {
+    margin-right: 20px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    font-size: 18px;
+}
+
+.searchbar {
+    width: 400px;
+    height: 30px;
+    padding: 0px 25px;
+    margin: 10px;
+    border-radius: 5px;
+}
