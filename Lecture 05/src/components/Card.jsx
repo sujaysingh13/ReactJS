@@ -5,6 +5,7 @@ function Card(props) {
             <div className="cardDetails">
                 <h2 className="cardText">{props.cloth}</h2>
                 <h1 className="cardText">{props.offer}</h1>
+                <h2 className="cardText">Price: {props.price}</h2>
                 <h2 className="cardText">Shop Now</h2>
             </div>
         </div>
