@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 7px solid yellow;
+    background-color: rgb(138, 211, 225);
+}
+
+button {
+    margin: 10px 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.counterContainer {
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(138, 211, 225);
+    border: 7px solid yellow;
+}
